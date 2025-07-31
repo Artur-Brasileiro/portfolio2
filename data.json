@@ -1,0 +1,97 @@
+{
+  "sobre": {
+    "nome": "Maria Fernanda",
+    "titulo": "Desenvolvedor Full-Stack",
+    "bio": "Desenvolvedor apaixonado por tecnologia com mais de 5 anos de experiência em desenvolvimento web. Especializado em criar soluções inovadoras e interfaces intuitivas.",
+    "foto": "/foto_maria.png",
+    "resumo": "Profissional dedicado focado em entregar código de qualidade e experiências excepcionais ao usuário."
+  },
+  "projetos": [
+    {
+      "id": 1,
+      "titulo": "E-commerce Platform",
+      "descricao": "Plataforma completa de e-commerce com painel administrativo, integração de pagamentos e sistema de inventário.",
+      "tecnologias": ["React", "Node.js", "MongoDB", "Stripe"],
+      "link": "https://github.com/exemplo/ecommerce",
+      "demo": "https://demo-ecommerce.com",
+      "imagem": "/placeholder.svg",
+      "destaque": true
+    },
+    {
+      "id": 2,
+      "titulo": "Task Management App",
+      "descricao": "Aplicativo de gerenciamento de tarefas com colaboração em tempo real e notificações push.",
+      "tecnologias": ["Vue.js", "Firebase", "PWA"],
+      "link": "https://github.com/exemplo/taskapp",
+      "demo": "https://demo-tasks.com",
+      "imagem": "/placeholder.svg",
+      "destaque": false
+    },
+    {
+      "id": 3,
+      "titulo": "Weather Dashboard",
+      "descricao": "Dashboard meteorológico com visualizações interativas e previsões detalhadas.",
+      "tecnologias": ["JavaScript", "D3.js", "API Weather"],
+      "link": "https://github.com/exemplo/weather",
+      "demo": "https://demo-weather.com",
+      "imagem": "/placeholder.svg",
+      "destaque": false
+    }
+  ],
+  "habilidades": [
+    {
+      "categoria": "Frontend",
+      "itens": ["HTML5", "CSS3", "JavaScript", "React", "Vue.js", "TypeScript"]
+    },
+    {
+      "categoria": "Backend",
+      "itens": ["Node.js", "Python", "Express", "FastAPI", "GraphQL"]
+    },
+    {
+      "categoria": "Database",
+      "itens": ["MongoDB", "PostgreSQL", "Redis", "Firebase"]
+    },
+    {
+      "categoria": "Tools & DevOps",
+      "itens": ["Git", "Docker", "AWS", "CI/CD", "Jest", "Webpack"]
+    }
+  ],
+  "educacao": [
+    {
+      "id": 1,
+      "instituicao": "Universidade Federal de Tecnologia",
+      "curso": "Bacharelado em Ciência da Computação",
+      "periodo": "2018 - 2022",
+      "status": "Concluído",
+      "descricao": "Formação sólida em algoritmos, estruturas de dados e engenharia de software."
+    },
+    {
+      "id": 2,
+      "instituicao": "Rocketseat",
+      "curso": "Bootcamp Full-Stack",
+      "periodo": "2022",
+      "status": "Certificado",
+      "descricao": "Especialização em desenvolvimento web moderno com React, Node.js e React Native."
+    },
+    {
+      "id": 3,
+      "instituicao": "Alura",
+      "curso": "Formação Front-end",
+      "periodo": "2021",
+      "status": "Certificado",
+      "descricao": "Aprofundamento em tecnologias front-end e UX/UI design."
+    }
+  ],
+  "contato": {
+    "email": "joao.silva@exemplo.com",
+    "telefone": "+55 (11) 99999-9999",
+    "linkedin": "https://linkedin.com/in/joao-silva",
+    "github": "https://github.com/joao-silva",
+    "twitter": "https://twitter.com/joao_silva_dev",
+    "endereco": {
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "pais": "Brasil"
+    }
+  }
+}
