@@ -9,7 +9,7 @@ const HabilidadesSection = () => {
   const [habilidades, setHabilidades] = useState<HabilidadeCategoria[]>([]);
 
   useEffect(() => {
-    fetch('/data.json')
+    fetch(`${import.meta.env.BASE_URL}data.json`)
       .then(response => response.json())
       .then(jsonData => setHabilidades(jsonData.habilidades))
       .catch(error => console.error('Error loading skills data:', error));

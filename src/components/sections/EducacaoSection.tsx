@@ -14,7 +14,7 @@ const EducacaoSection = () => {
   const [educacao, setEducacao] = useState<Educacao[]>([]);
 
   useEffect(() => {
-    fetch('/data.json')
+    fetch(`${import.meta.env.BASE_URL}data.json`)
       .then(response => response.json())
       .then(jsonData => setEducacao(jsonData.educacao))
       .catch(error => console.error('Error loading education data:', error));

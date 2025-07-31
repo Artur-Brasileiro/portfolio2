@@ -18,7 +18,7 @@ const ContatoSection = () => {
   const [contato, setContato] = useState<Contato | null>(null);
 
   useEffect(() => {
-    fetch('/data.json')
+    fetch(`${import.meta.env.BASE_URL}data.json`)
       .then(response => response.json())
       .then(jsonData => setContato(jsonData.contato))
       .catch(error => console.error('Error loading contact data:', error));

@@ -13,8 +13,7 @@ const SobreSection = () => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    // Fetch data from JSON
-    fetch('/data.json')
+    fetch(`${import.meta.env.BASE_URL}data.json`)
       .then(response => response.json())
       .then(jsonData => {
         setData(jsonData.sobre);
