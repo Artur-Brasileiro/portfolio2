@@ -3,7 +3,7 @@
     "nome": "Maria Fernanda",
     "titulo": "Desenvolvedor Full-Stack",
     "bio": "Desenvolvedor apaixonado por tecnologia com mais de 5 anos de experiência em desenvolvimento web. Especializado em criar soluções inovadoras e interfaces intuitivas.",
-    "foto": "/foto_maria.png",
+    "foto": "foto_maria.png",
     "resumo": "Profissional dedicado focado em entregar código de qualidade e experiências excepcionais ao usuário."
   },
   "projetos": [
@@ -14,7 +14,7 @@
       "tecnologias": ["React", "Node.js", "MongoDB", "Stripe"],
       "link": "https://github.com/exemplo/ecommerce",
       "demo": "https://demo-ecommerce.com",
-      "imagem": "/placeholder.svg",
+      "imagem": "placeholder.svg",
       "destaque": true
     },
     {
